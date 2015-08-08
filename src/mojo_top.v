@@ -1,3 +1,7 @@
+/*
+This program ties the state of the LED to the state of the RESET button
+*/
+
 module mojo_top(
     // 50MHz clock input
     input clk,
@@ -21,12 +25,12 @@ module mojo_top(
     );
 
 wire rst = ~rst_n; // make reset active high
-
+wire [9:0] array; // this is a declaration of the 8-bit wire (I/O line)
 // these signals should be high-z when not used
 assign spi_miso = 1'bz;
 assign avr_rx = 1'bz;
 assign spi_channel = 4'bzzzz;
-
-assign led = 8'b0;
+assign led[6:0] = 7'b0; //these pins are set to a constant zero
+assign led[7] = rst; // this pin is tied to rst
 
 endmodule
