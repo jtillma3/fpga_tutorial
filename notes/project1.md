@@ -47,11 +47,12 @@
 * b - notes that the value is in binary representation
 * {y} - the constant value assigned to the variable
     * Possible digits: 0 or 1
+
 #### Special Values
 * z - High-Impedence (disconnected) value 
-        * Useful for lines note being used to prevent damage
+    * Useful for lines note being used to prevent damage
 * x - Don't care
-        * Any possible value
+    * Any possible value
 
 #### Examples
 * 8'b0
@@ -61,24 +62,27 @@
 
 ### Hexadecimal
 #### Format {x}'x{y}
-    * {x} - still denotes the bit length of the variable
-    * x - notes that the value is in hexadecimal format
-    * {y} - the value to be stored in the variable
-        * Possible digits: 0-9 and A-Z
+* {x} - still denotes the bit length of the variable
+* x - notes that the value is in hexadecimal format
+* {y} - the value to be stored in the variable
+    * Possible digits: 0-9 and A-Z
 
 ### Decimal
 #### Format {x}'d{y}
-    * {x} - bit-length
-    * d - notes that the value is in decimal format
-    * {y} - the value stored to the variable
-        * Possible digits: 0-9
+* {x} - bit-length
+* d - notes that the value is in decimal format
+* {y} - the value stored to the variable
+    * Possible digits: 0-9
 
 ## Signal Definitions
 
-### wires - represents a physical wire in a module
+### wires 
+- represents a physical wire in a module
     * Equivalent to a connection between components
     * no memory (storage)
-### reg - discussed later on
+    
+### reg 
+- discussed later on
 
 #### Notes
 * bus notation *can* use [7:0], [8:1], or even [0:7]
