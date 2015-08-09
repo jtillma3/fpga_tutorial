@@ -2,12 +2,12 @@
 
 ## General Project Structure
 * Base folder
-* /ipcore_dir - where the IP cores will go
-* /isecondif - used by ISE
-* /src - where the user created files go
-* /syn - the working directory for the ISE
-	- The .bin file for the project will be placed here
-* Mojo-Base.xise - the project file to load in ISE
+    * /ipcore_dir - where the IP cores will go
+    * /isecondif - used by ISE
+    * /src - where the user created files go
+    * /syn - the working directory for the ISE
+    	- The .bin file for the project will be placed here
+    * Mojo-Base.xise - the project file to load in ISE
 
 ## Project Goal
 * To wire the RESET button to the bottom LED on the right side
