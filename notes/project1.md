@@ -46,18 +46,42 @@
 * {x} - represents the bit-length of the variable
 * b - notes that the value is in binary representation
 * {y} - the constant value assigned to the variable
-
+    * Possible digits: 0 or 1
 #### Special Values
 * z - High-Impedence (disconnected) value 
-    * Useful for lines note being used to prevent damage
-    * x - Don't care
-    * Any possible value
+        * Useful for lines note being used to prevent damage
+* x - Don't care
+        * Any possible value
+
 #### Examples
 * 8'b0
     - 8-bit 0 value
 * 2'b11
     - 2-bit 3 value
+
+### Hexadecimal
+#### Format {x}'x{y}
+    * {x} - still denotes the bit length of the variable
+    * x - notes that the value is in hexadecimal format
+    * {y} - the value to be stored in the variable
+        * Possible digits: 0-9 and A-Z
+
+### Decimal
+#### Format {x}'d{y}
+    * {x} - bit-length
+    * d - notes that the value is in decimal format
+    * {y} - the value stored to the variable
+        * Possible digits: 0-9
+
 ## Signal Definitions
+
 ### wires - represents a physical wire in a module
     * Equivalent to a connection between components
-    * Possesses no memory 
+    * no memory (storage)
+### reg - discussed later on
+
+#### Notes
+* bus notation *can* use [7:0], [8:1], or even [0:7]
+    - the first format is preferred 
+* After declaring a signal type, a value can be given using the assign keyword
+* Warnings are common in the Syntheis process
