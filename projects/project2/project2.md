@@ -1,7 +1,7 @@
 # Verilog Operators
 
 ## Purpose
--Covers the logical, binary and unary operators available in Verilog
+- Covers the logical, binary and unary operators available in Verilog
 
 ## Bitwise Operators
 NOT ~
