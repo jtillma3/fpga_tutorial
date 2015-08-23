@@ -5,10 +5,15 @@
 
 ## Bitwise Operators
 |Operator Name| Operator Sign|
+
 |NOT| ~|
+
 |AND |&|
+
 |OR |`|`|
+
 |XOR| ^|
+
 |XNOR| ~^ or ^~|
 
 ### Truth Tables
