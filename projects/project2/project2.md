@@ -19,14 +19,14 @@ References for general future use
 #### NOT
 
 | A | ~A |
-| - | -- |
+| -- | -- |
 | 0 | 1 |
 | 1 | 0 |
 
 #### AND
 
 | A | B | C |
-| - | - | - |
+| -- | -- | -- |
 | 0 | 0 | 0 |
 | 0 | 1 | 0 |
 | 1 | 0 | 0 |
@@ -35,7 +35,7 @@ References for general future use
 #### OR
 
 | A | B | C |
-| - | - | - |
+| -- | -- | -- |
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
@@ -44,7 +44,7 @@ References for general future use
 #### XOR
 
 | A | B | C |
-| - | - | - |
+| -- | -- | -- |
 | 0 | 0 | 0 |
 | 0 | 1 | 1 |
 | 1 | 0 | 1 |
@@ -53,7 +53,7 @@ References for general future use
 #### XNOR
 
 | A | B | C |
-| - | - | - |
+| -- | -- | -- |
 | 0 | 0 | 1 |
 | 0 | 1 | 0 |
 | 1 | 0 | 0 |
