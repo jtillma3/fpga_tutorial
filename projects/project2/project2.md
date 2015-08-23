@@ -4,11 +4,17 @@
 - Covers the logical, binary and unary operators available in Verilog
 
 ## Bitwise Operators
+
 |Operator Name| Operator Sign|
+
 |NOT| ~|
+
 |AND |&|
+
 |OR |`|`|
+
 |XOR| ^|
+
 |XNOR| ~^ or ^~|
 
 ### Truth Tables
