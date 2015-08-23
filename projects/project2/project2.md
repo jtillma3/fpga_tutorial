@@ -30,10 +30,15 @@ References for general future use
 #### AND
 
 |A|B|C|
+
 |-|-|-|
+
 |0|0|0|
+
 |0|1|0|
+
 |1|0|0|
+
 |1|1|1|
 
 #### OR
