@@ -5,17 +5,13 @@
 
 ## Bitwise Operators
 
-|Operator Name| Operator Sign|
-
-|NOT| ~|
-
-|AND |&|
-
-|OR |`|`|
-
-|XOR| ^|
-
-|XNOR| ~^ or ^~|
+| Operator Name | Operator Sign |
+| ------------- | ------------- |
+| NOT | ~ |
+| AND | & |
+| OR | | |
+| XOR | ^ |
+| XNOR | ~^ or ^~ |
 
 ### Truth Tables
 References for general future use
